@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Typography and gradients</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="lay1style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="nav-link">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="faqs.html">Faqs</a>
+            <a href="program.html">Program</a>
+            <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div>
+          <section>
+            <ol>
+                <li>Home</li>
+                <li>Page</li>
+                <li>Services</li>
+                <li>About Us</li>
+                <li value="23">Portfolio</li>
+                <li>Pricing</li>
+                <li>News</li>
+                <li>Testimonials</li>
+                <li>Contact Us</li>
+          </ol>
+          </section>
+          <section>
+            <ul>
+                <li>Home</li>
+                <li>Menu</li>
+                <ol>
+                  <li>Menu1</li>
+                  <ul>
+                    <li>Sub Menu1</li>
+                    <li>Sub Menu2</li>
+                  </ul>
+                  <li>Menu2</li>
+                  <li>Menu3</li>
+                  <li>Menu4</li>
+                  <li>Menu5</li>
+                </ol>
+                <li>How We Work</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+          </ul>
+          </section>
+          <section>
+            <ul>
+                <li class="icon">Home</li>
+                <li class="icon">Page</li>
+                <li class="icon">Services</li>
+                <li class="icon">About Us</li>
+                <li class="icon">Portfolio</li>
+                <li class="icon">Pricing</li>
+                <li class="icon">News</li>
+                <li class="icon">Testimonials</li>
+                <li class="icon">Contact Us</li>
+          </ul>
+          </section>
+      </div>
+      <div class="content">
+      <h2>What is Lorem Ipsum</h2>
+      <p>Every selector in CSS has a specificity weight. A selector’s specificity weight, along with its placement in the cascade, identifies 
+        how its styles will be rendered. In Lesson 1, “Building Your First Web Page,” we talked about three different types of selectors: 
+        the type, class, and ID selectors. Each of these selectors has a different specificity weight. The type selector has the lowest
+        specificity weight and holds a point value of 0-0-1. The class selector has a medium specificity weight and holds a point value of 
+        0-1-0. Lastly, the ID selector has a high specificity weight and holds a point value of 1-0-0. As we can see, specificity points are 
+        calculated using three columns. The first column counts ID selectors, the second column counts class selectors, and the third column
+        counts type selectors. What’s important to note here is that the ID selector has a higher specificity weight than the class selector, 
+        and the class selector has a higher specificity weight than the type selector.</p>
+      <h2>Why do we use it</h2>
+      <p>When selectors are combined they should be read from right to left. The selector farthest to the right, directly before the opening 
+        curly bracket, is known as the key selector. The key selector identifies exactly which element the styles will be applied to. Any 
+        selector to the left of the key selector will serve as a prequalifier. The first combined selector above, .hotdog p, includes two 
+        selectors: a class and a type selector. These two selectors are separated by a single space. The key selector is a type selector 
+        targeting paragraph elements. And because this type selector is prequalified with a class selector of hotdog, the full combined 
+        selector will only select paragraph elements that reside within an element with a class attribute value of hotdog. The second selector 
+        e, .hotdog p.mustard, includes three selectors: two class selectors and one type selector.</p>
+      <h2>Lorem Ipsum <br> Dummy Text
+      </h2>
+      <p>To set one value for the top and bottom and another value for the left and right sides of an element, specify two values: top and bottom
+        first, then left and right. Here we are placing margins of 10 pixels on the top and bottom and margins of 20 pixels on the left and right. 
+        Borders fall between the padding and margin, providing an outline around an element. The border property requires three values: width, 
+        style, and color. Shorthand values for the border property are stated in that order—width, style, color. In longhand, these three values 
+        can be broken up into the border-width, border-style, and border-color properties. These longhand properties are useful for changing, or 
+        overwriting, a single border value.</p>
+        </div>
+      <footer>
+        <div class="nav-link">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="faqs.html">Faqs</a>
+            <a href="program.html">Program</a>
+            <a href="contact.html">Contact</a>
+          </div>
+      </footer>
+</body>
