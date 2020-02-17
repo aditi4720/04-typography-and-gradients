@@ -1,0 +1,46 @@
+body{
+    background-image: url("images/img1.jpeg");
+    position: relative;
+    opacity: 5.5;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 270px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+section{
+    height: 200px;
+    width: 20%;
+    background-color: #f62843;
+    margin: 60px;
+    margin-left: 6%;
+    padding-left: 40px;
+    font-size: 17px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    float: left;
+    line-height: 30px;
+    border-radius: 5%;
+    font-size: 25px;
+}
+.box2{
+    background: #f62843;
+    background: linear-gradient(to right, #5a3f45, #f62843);
+}
+.box3{
+    background: #f62843;
+    background: radial-gradient(#f62843, #5a3f45);
+}
+img{
+    width: 950px;
+    height: 330px;
+    padding-right: 30%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+    opacity: 0.85;
+    background: radial-gradient(#f62843, #5a3f45), url("images/img2.jpg");
+}
